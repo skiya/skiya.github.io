@@ -1,5 +1,33 @@
-.site-title{
-  background-color: #A476C3;
-  color: #FFF;
-  margin: 0 0 auto 0;
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: #666;
+    color: #FFF;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    box-shadow: 0 3px 3px #333;
+    flex-direction: row;
+    align-items: center;
+}
+
+header time{
+    font-weight: bold;
+}
+
+.my-avatar{
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.my-name{
+    font-family: Consolas,serif;
+    margin-left: 10px;
 }
