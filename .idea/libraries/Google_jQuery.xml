@@ -1,12 +1,9 @@
 <component name="libraryTable">
-  <library name="Google jQuery" type="javaScript">
-    <properties>
-      <option name="frameworkName" value="jQuery" />
-      <option name="frameworkVersion" value="3.3.1" />
-    </properties>
+  <library name="Google jQuery">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/utili/jquery.min.js" />
     </CLASSES>
+    <JAVADOC />
     <SOURCES />
   </library>
 </component>
