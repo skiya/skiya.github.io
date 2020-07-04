@@ -31,6 +31,7 @@ p {
     width: 45vw;
     margin-left: 25%;
     display: flex;
+    font-weight: 100;
 }
 
 .qrcode {
@@ -42,14 +43,17 @@ p {
     margin-left: 10px;
     font-size: 1em;
     color: white;
+    font-weight: 100;
 }
 
 .contact {
     font-size: smaller;
     color : white;
     margin-top: 35px;
+    font-weight: 100;
 }
 
 a:link {
     color: white;
+    font-weight: 100;
 }
