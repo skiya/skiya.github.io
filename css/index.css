@@ -1,33 +1,7 @@
 html,body{
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    background-color: #1070aa
 }
 
-header{
-    display: flex;
-    background-color: #666;
-    color: #FFF;
-    height: 100px;
-    width: 100%;
-    margin: 0;
-    box-shadow: 0 3px 3px #333;
-    flex-direction: row;
-    align-items: center;
-}
+h1 {
 
-header time{
-    font-weight: bold;
-}
-
-.my-avatar{
-    height: 80%;
-    border-radius: 50%;
-    margin-left: 10px;
-}
-
-.my-name{
-    font-family: Consolas,serif;
-    margin-left: 10px;
 }

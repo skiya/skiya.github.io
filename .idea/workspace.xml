@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42f26196-eb1d-4bc6-82d4-111344bbe536" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Google_jQuery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Google_jQuery.xml" afterDir="false" />
+    <list default="true" id="42f26196-eb1d-4bc6-82d4-111344bbe536" name="Default" comment="add google webmaster meta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +78,14 @@
       <workItem from="1531657264108" duration="2291000" />
       <workItem from="1531981821806" duration="8435000" />
     </task>
+    <task id="LOCAL-00001" summary="add google webmaster meta">
+      <created>1593594232698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593594232698</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -97,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add google webmaster meta" />
+    <option name="LAST_COMMIT_MESSAGE" value="add google webmaster meta" />
   </component>
 </project>
