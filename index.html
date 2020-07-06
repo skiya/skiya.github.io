@@ -8,8 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="google-site-verification" content="d00ur4XqRQMMJvr-9VZUoRGgf8JMHCV-AYvGzysx5fg" />
     <title>Blue Screen Simulator</title>
-    <script src="ut/jquery.min.js"></script>
-    <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/index.css" />
 </head>
 
@@ -19,22 +17,24 @@
         <h1>:(</h1>
         <p>Your PC ran into a problem and needs to restart. We're just collecting some error info,
             and then we'll restart for you.</p>
-        <p class="progress">0% complete</p>
+        <p id="progress">{{progress}}% complete</p>
     </main>
-    <figure class="description">
-        <img class="qrcode" src="img/qrcode.png" />
-        <figcaption class="qrdes">
+    <figure id="description">
+        <img id="qrcode" src="img/qrcode.png" />
+        <figcaption id="qrdes">
             This is a Windows 10 style Blue Screen Simulator written with HTML and CSS.
             It's created by the author during he first try to build a web page from scratch.
-            <figcaption class="contact">
+            <figcaption id="contact">
                 If you want to contact me, you can send a email
                 by clicking this link: <address>
-                    <a href="mailto:suiqiye@gmail.com" class="mail">MAIL_TO_CONTACT</a>
+                    <a href="mailto:suiqiye@gmail.com" id="mail">MAIL_TO_CONTACT</a>
                 </address>
             </figcaption>
         </figcaption>
     </figure>
-
+    <script src="ut/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
